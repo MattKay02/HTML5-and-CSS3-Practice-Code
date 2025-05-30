@@ -1,0 +1,99 @@
+
+body {
+    background-image: linear-gradient(white, rgb(131, 131, 131));
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+nav {
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements */
+    margin-bottom: 1em; /* This places some space between elements */
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0.2em;
+    margin-bottom: 0.2em;
+
+}
+
+nav ul li {
+    background-color: black;
+    padding: 1em;
+    min-width: 12%;
+    margin: 0.25em;
+    list-style-type: none; /* his removes bullet points */ 
+}
+
+main {
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements */
+    margin-bottom: 1em; /* This places some space between elements */
+    background-color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* removes hyperlink default behaviour */
+}
+
+footer {
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements */
+    background-color: white;
+}
+
+/* Begin mobile */
+
+@media screen and (max-width: 639px) {
+    nav ul li {
+        border-radius: 1em;
+    }
+}
+
+/* End mobile */
+
+/* Begin tablet */
+
+@media screen and (min-width: 640px) {
+    nav ul li {
+        border-radius: 1em;
+        display: inline-block; /* This list items horizontally and allows them to stretch */
+    }
+}
+
+/* End tablet */
+
+/* Begin desktop */
+
+@media screen and (min-width: 960px) {
+    header img {
+        width: auto;
+        height: 5em;
+    }
+    
+    nav {
+        float: right; /* This floats the nav elements to the right side of the page*/
+        margin-top: -5.1em; /* This moves the nav element above where it would normally be*/
+        width: 60%;
+    }
+    
+    nav ul li {
+        border-radius: 1em;
+        display: inline-block; /* This list items horizontally and allows them to stretch */
+    }
+}
+
+/* End desktop */
+

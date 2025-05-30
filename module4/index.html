@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!-- CSS Fundamentals  -->
+
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <style>
+        body { background-color: lightslategray; }    
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav><a href="index.html">Home page</a></nav>
+    <main>
+        <!-- The inline syle overrides the embedded style sheet -->
+        <h1 style="color: blue; background-color: grey">Module 4:</h1>
+        <h2>This is an example of external style sheet.</h2>
+        <p id="container">This is an example of a paragraph element with the ID of container</p>
+        <!-- This is incorrect -->
+        <p id="container">test</p>
+        <h3 class="accent">This is the accented heading</h3>
+        <p class="accent">This is the accented paragraph</p>
+        <!-- This has a different style than the others -->
+        <div id="divelement">This is the <span class="accent">descendant</span> div element</div>
+    </main>
+    <footer>This is a test</footer>
+</body>
+</html>

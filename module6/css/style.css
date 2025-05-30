@@ -1,0 +1,34 @@
+
+body {
+    background-image: linear-gradient(white, rgb(131, 131, 131));
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+nav {
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements */
+    margin-bottom: 1em; /* This places some space between elements */
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+main {
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements */
+    margin-bottom: 1em; /* This places some space between elements */
+}
+
+footer {
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius: 1.0em; /* This rounds the corners of elements */
+}

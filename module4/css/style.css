@@ -1,0 +1,29 @@
+h2 {
+    color: green;
+    background-color: white;
+    font-family: Aerial, "Comic Sans", Calibri;
+    font-size: 24pt;
+    text-align:center;
+}
+
+h1 {
+    background-color: white;
+}
+
+#container {
+    color: yellow;
+}
+
+.accent {
+    background-color: limegreen;
+    color: orange;
+}
+
+body main div {
+    color: white;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #8d1a97;
+}
